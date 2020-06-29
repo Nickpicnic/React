@@ -1,0 +1,33 @@
+body {
+	padding: 0;
+}
+.App {
+	text-align: center;
+	padding: 0;
+}
+.App-nav {
+	position: absolute;
+	width: 150px;
+	padding: 0 auto;
+	right: 0;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	line-height: 3rem;
+	z-index: 3;
+
+	background-color: rgba(150, 150, 150, 0.3);
+	color: black;
+}
+.App-nav a {
+	text-decoration: none;
+}
+.App-nav a:visited {
+	color: grey;
+}
+
+.active-link {
+	background-color: white;
+	color: black !important;
+	font-weight: 600;
+}
